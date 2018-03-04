@@ -1,5 +1,3 @@
-
-
 /*!
  * Start Bootstrap - Full Slider (https://startbootstrap.com/template-overviews/full-slider)
  * Copyright 2013-2017 Start Bootstrap
@@ -103,7 +101,6 @@
 .menu-toggle {
     position: fixed;
     right: 20px;
-    top: 15px;
     width: 50px;
     height: 50px;
     text-align: center;
@@ -111,8 +108,7 @@
     background: rgba(52, 58, 64, 0.5);
     line-height: 50px;
     z-index: 999;
-    margin-left: 10px;
-    margin-right: 10px;
+    margin: 10px;
 }
 
 .menu-toggle:focus,
@@ -123,15 +119,18 @@
 .menu-toggle:hover {
     background: #343a40;
 }
+
 .sidebar_phone {
     color: transparent;
 }
+
 @media (max-width:467px) {
     .phone-header {
         display: none;
     }
-    .sidebar_phone{
-      color:#efefef
+
+    .sidebar_phone {
+        color: #efefef;
     }
 }
 
@@ -240,6 +239,6 @@
     color: #efefef;
     font-size: 28px;
     position: fixed;
-    top: 20px;
+    top: 15px;
     right: 138px;
 }
