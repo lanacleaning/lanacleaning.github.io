@@ -159,7 +159,8 @@
 }
 
 .row_flex {
-    flex-flow: row;
+    display: flex;
+    flex-flow: column nowrap;
     align-items: center;
     justify-content: center;
     margins: 20px;
