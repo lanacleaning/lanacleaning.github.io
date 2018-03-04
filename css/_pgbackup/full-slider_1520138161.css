@@ -274,11 +274,7 @@
 }
 
 .testimonial_quote {
-    color: #bfbfbf;
+    color: #a7a7a7;
     font-size: 50px;
     margin: 26px;
-}
-
-.testimonial_signature {
-    align-self: flex-end;
 }

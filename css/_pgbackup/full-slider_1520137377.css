@@ -1,9 +1,3 @@
-.sidebar-nav > .sidebar-brand {
-}
-
-.sidebar-nav > .sidebar-brand {
-}
-
 /*!
  * Start Bootstrap - Full Slider (https://startbootstrap.com/template-overviews/full-slider)
  * Copyright 2013-2017 Start Bootstrap
@@ -249,36 +243,4 @@
     position: fixed;
     top: 15px;
     right: 138px;
-}
-
-.testimonial_bkg {
-    background-color: #;
-}
-
-.testimonial_bkg {
-    background-color: #;
-}
-
-.testimonial_bkg {
-    background-color: #13ad3a;
-    margin: 50px 0;
-}
-
-.testimonial_text {
-    color: #efefef;
-}
-
-.testimonial_quotemarg {
-    color: #efefef;
-    font-size: 60px;
-}
-
-.testimonial_quote {
-    color: #bfbfbf;
-    font-size: 50px;
-    margin: 26px;
-}
-
-.testimonial_signature {
-    align-self: flex-end;
 }
