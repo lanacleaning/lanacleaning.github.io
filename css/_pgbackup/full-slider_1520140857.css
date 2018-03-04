@@ -1,3 +1,9 @@
+.sidebar-nav > .sidebar-brand {
+}
+
+.sidebar-nav > .sidebar-brand {
+}
+
 /*!
  * Start Bootstrap - Full Slider (https://startbootstrap.com/template-overviews/full-slider)
  * Copyright 2013-2017 Start Bootstrap
@@ -78,7 +84,7 @@
 #sidebar-wrapper.active {
     right: 0px;
     padding-left: 20px;
-    width: 470px;
+    width: 286px;
     -webkit-transition: all 0.4s ease 0s;
     -moz-transition: all 0.4s ease 0s;
     -ms-transition: all 0.4s ease 0s;
@@ -159,9 +165,11 @@
 }
 
 .row_flex {
-    flex-flow: row;
+    display: flex;
+    flex-flow: column nowrap;
     align-items: center;
     justify-content: center;
+    margins: 20px;
 }
 
 .portfolio-item {
@@ -241,4 +249,36 @@
     position: fixed;
     top: 15px;
     right: 138px;
+}
+
+.testimonial_bkg {
+    background-color: #;
+}
+
+.testimonial_bkg {
+    background-color: #;
+}
+
+.testimonial_bkg {
+    background-color: #13ad3a;
+    margin: 50px 0;
+}
+
+.testimonial_text {
+    color: #efefef;
+}
+
+.testimonial_quotemarg {
+    color: #efefef;
+    font-size: 60px;
+}
+
+.testimonial_quote {
+    color: #bfbfbf;
+    font-size: 50px;
+    margin: 26px;
+}
+
+.testimonial_signature {
+    align-self: flex-end;
 }
