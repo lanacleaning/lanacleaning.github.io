@@ -132,16 +132,16 @@ z-index: 999;
 .menu-toggle:hover {
     background: #343a40;
 }
-.sidebar_phone {
-    color: transparent;
-}
-@media (max-width:467px) {
-    .phone-header {
-        display: none;
-    }
-    .sidebar_phone{
-      color:#efefef
-    }
+
+.phone-header {
+    font-size: 28px;
+    right: 103px;
+    top: 20px;
+    color: #efefef;
+    z-index: 2;
+    margin-left: 10px;
+    margin-right: 10px;
+    position: fixed;
 }
 
 .header_green_bar {
@@ -243,12 +243,4 @@ z-index: 999;
         -webkit-clip-path: inset(2rem);
         clip-path: inset(2rem);
     }
-}
-
-.phone-header {
-    color: #efefef;
-    font-size: 28px;
-    position: fixed;
-    top: 20px;
-    right: 138px;
 }

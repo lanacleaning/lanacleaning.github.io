@@ -37,6 +37,7 @@ z-index: 999;
     -ms-transition: all 0.4s ease 0s;
     -o-transition: all 0.4s ease 0s;
     transition: all 0.4s ease 0s;
+    transform: translateX(110px);
     background: #16C141;
     border-left: 1px solid rgba(255, 255, 255, 0.1);
 }
@@ -101,6 +102,7 @@ z-index: 999;
     #sidebar-wrapper.active {
         right: 0px;
         width: 100vw;
+        height: 53vh;
         -webkit-transition: all 0.4s ease 0s;
         -moz-transition: all 0.4s ease 0s;
         -ms-transition: all 0.4s ease 0s;
@@ -110,9 +112,6 @@ z-index: 999;
 }
 
 .menu-toggle {
-    position: fixed;
-    right: 20px;
-    top: 15px;
     width: 50px;
     height: 50px;
     text-align: center;
@@ -132,16 +131,13 @@ z-index: 999;
 .menu-toggle:hover {
     background: #343a40;
 }
-.sidebar_phone {
-    color: transparent;
-}
-@media (max-width:467px) {
-    .phone-header {
-        display: none;
-    }
-    .sidebar_phone{
-      color:#efefef
-    }
+
+.phone-header {
+    font-size: 28px;
+    color: #efefef;
+    z-index: 2;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 
 .header_green_bar {
@@ -153,6 +149,10 @@ z-index: 999;
     position: fixed;
     top: 0;
     z-index: 999;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
     background-color: #16C141;
 }
 
@@ -174,81 +174,71 @@ z-index: 999;
     justify-content: center;
 }
 
+
+
+
 .portfolio-item {
-    display: block;
-    position: relative;
-    overflow: hidden;
-    max-width: 530px;
-    margin: auto auto 1rem;
+  display: block;
+  position: relative;
+  overflow: hidden;
+  max-width: 530px;
+  margin: auto auto 1rem;
 }
 
 .portfolio-item .caption {
-    display: flex;
-    height: 100%;
-    width: 100%;
-    background-color: rgba(33, 37, 41, 0.2);
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    z-index: 1;
+  display: flex;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(33, 37, 41, 0.2);
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  z-index: 1;
 }
 
 .portfolio-item .caption .caption-content {
-    color: #fff;
-    margin: auto 2rem 2rem;
+  color: #fff;
+  margin: auto 2rem 2rem;
 }
 
 .portfolio-item .caption .caption-content h2 {
-    font-size: 0.8rem;
-    text-transform: uppercase;
+  font-size: 0.8rem;
+  text-transform: uppercase;
 }
 
 .portfolio-item .caption .caption-content p {
-    font-weight: 300;
-    font-size: 1.2rem;
+  font-weight: 300;
+  font-size: 1.2rem;
 }
 
 @media (min-width: 992px) {
-    .portfolio-item {
-        max-width: none;
-        margin: 0;
-    }
-
-    .portfolio-item .caption {
-        -webkit-transition: -webkit-clip-path 0.25s ease-out, background-color 0.7s;
-        -webkit-clip-path: inset(0px);
-        clip-path: inset(0px);
-    }
-
-    .portfolio-item .caption .caption-content {
-        transition: opacity 0.25s;
-        margin-left: 5rem;
-        margin-right: 5rem;
-        margin-bottom: 5rem;
-    }
-
-    .portfolio-item img {
-        -webkit-transition: -webkit-clip-path 0.25s ease-out;
-        -webkit-clip-path: inset(-1px);
-        clip-path: inset(-1px);
-    }
-
-    .portfolio-item:hover img {
-        -webkit-clip-path: inset(2rem);
-        clip-path: inset(2rem);
-    }
-
-    .portfolio-item:hover .caption {
-        background-color: rgba(22, 193, 65,0.9);
-        -webkit-clip-path: inset(2rem);
-        clip-path: inset(2rem);
-    }
-}
-
-.phone-header {
-    color: #efefef;
-    font-size: 28px;
-    position: fixed;
-    top: 20px;
-    right: 138px;
+  .portfolio-item {
+    max-width: none;
+    margin: 0;
+  }
+  .portfolio-item .caption {
+    -webkit-transition: -webkit-clip-path 0.25s ease-out, background-color 0.7s;
+    -webkit-clip-path: inset(0px);
+    clip-path: inset(0px);
+  }
+  .portfolio-item .caption .caption-content {
+    transition: opacity 0.25s;
+    margin-left: 5rem;
+    margin-right: 5rem;
+    margin-bottom: 5rem;
+  }
+  .portfolio-item img {
+    -webkit-transition: -webkit-clip-path 0.25s ease-out;
+    -webkit-clip-path: inset(-1px);
+    clip-path: inset(-1px);
+  }
+  .portfolio-item:hover img {
+    -webkit-clip-path: inset(2rem);
+    clip-path: inset(2rem);
+  }
+  .portfolio-item:hover .caption {
+    background-color: rgba(22, 193, 65,0.9);
+    -webkit-clip-path: inset(2rem);
+    clip-path: inset(2rem);
+  }
 }

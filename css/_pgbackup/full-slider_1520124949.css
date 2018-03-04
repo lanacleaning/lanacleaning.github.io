@@ -132,15 +132,10 @@ z-index: 999;
 .menu-toggle:hover {
     background: #343a40;
 }
-.sidebar_phone {
-    color: transparent;
-}
+
 @media (max-width:467px) {
     .phone-header {
         display: none;
-    }
-    .sidebar_phone{
-      color:#efefef
     }
 }
 
