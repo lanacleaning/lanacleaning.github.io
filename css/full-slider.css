@@ -169,10 +169,12 @@ z-index: 999;
 }
 
 .row_flex {
-    flex-flow: row wrap;
+    flex-flow: row;
     align-items: center;
     justify-content: center;
 }
+
+
 
 
 .portfolio-item {
