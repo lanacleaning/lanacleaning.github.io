@@ -2568,18 +2568,8 @@ fieldset:disabled a.btn {
 
 .btn-primary {
     color: #fff;
-    background-color: #0073B1;
-
-    .sidebar-nav > .sidebar-brand {
-    }
-
-    .sidebar-nav > .sidebar-brand {
-    }
-
-    .sidebar-nav > .sidebar-brand {
-    }
-
-    border-color: #0073B1;
+    background-color: #007bff;
+    border-color: #007bff;
 }
 
 .btn-primary:hover {
