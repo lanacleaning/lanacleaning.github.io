@@ -157,7 +157,7 @@
 }
 
 .container_padding {
-    padding: 50px;
+    margins: 6em 0;
 }
 
 .column-margins {
@@ -261,7 +261,7 @@
 
 .testimonial_bkg {
     background-color: #13ad3a;
-    margin: 50px 0;
+    padding: 50px 0;
 }
 
 .testimonial_text {
@@ -287,4 +287,38 @@
     font-size: 26px;
     color: #0073b1;
     margin: 0 5px;
+}
+
+.text_green {
+    color: #16C141;
+}
+
+.whylana_h1_margin {
+    margin: 3em 0;
+}
+
+.container_padding {
+    padding: 5em 0;
+}
+
+.quote {
+    background-color: #16C141;
+    padding: 50px 0;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.quote_text_white {
+    color: #efefef;
+}
+
+.quote_btn {
+    font-weight: 700;
+    text-align: center;
+    padding: 10px 35px;
+    margin: 30px;
+    background-color: #ffae1a;
+    border-color: #ffae1a;
 }
