@@ -325,19 +325,14 @@
 
 .google_map {
     position: relative;
-    padding-bottom: 75%;
-    //: 0;
+    padding-bottom: 75%; // This is the aspect ratio
+    height: 0;
     overflow: hidden;
 }
-
 .google_map iframe {
     position: absolute;
     top: 0;
     left: 0;
     width: 100% !important;
     height: 100% !important;
-}
-
-.h1_padding {
-    padding: 3em 0 1em 0;
 }
