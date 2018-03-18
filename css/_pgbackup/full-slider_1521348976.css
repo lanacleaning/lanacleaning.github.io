@@ -364,15 +364,6 @@
 }
 
 .menu_getaquote_orange {
-    color: #ffae1a !important;
-}
-
-.menu_getaquote_orange {
-    color: #ffae1a !important;
-    font-weight: 900;
-}
-
-.h2_white_bold {
-    color: #efefef;
-    font-weight: 700;
+    background-color: #ffae1a;
+    color: black;
 }
