@@ -466,7 +466,7 @@ input:checked + label {
 }
 
 .residential_services {
-    padding: 10em 0;
+    padding: 10em 2em;
 }
 
 .services_we_offer {
