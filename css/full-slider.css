@@ -397,10 +397,6 @@ label:before {
     margin-right: 10px;
 }
 
-label[for*='1']:before {
-    content: '\f015';
-}
-
 label[for*='2']:before {
     content: '\f00e';
 }
@@ -500,4 +496,8 @@ input:checked + label {
 
 .commercial_section_padding {
     padding: 2vw 12vw;
+}
+
+.textarea {
+    height: 200px;
 }
