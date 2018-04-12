@@ -518,7 +518,3 @@ input:checked + label {
     font-weight: 700;
     margin-left: 3px;
 }
-
-.hero_greentext {
-    font-weight: 350;
-}

@@ -512,13 +512,3 @@ input:checked + label {
     border-style: solid;
     padding: 0.3em;
 }
-
-.footer_contact_a {
-    color: #cfcfcf;
-    font-weight: 700;
-    margin-left: 3px;
-}
-
-.hero_greentext {
-    font-weight: 350;
-}

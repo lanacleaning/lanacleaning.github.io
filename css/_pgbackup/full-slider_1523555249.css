@@ -504,21 +504,4 @@ input:checked + label {
 
 .h1_greyfont {
     color: #bbb;
-    margin: 0.5em;
-}
-
-.services_greyborder {
-    border-color: #cfcfcf;
-    border-style: solid;
-    padding: 0.3em;
-}
-
-.footer_contact_a {
-    color: #cfcfcf;
-    font-weight: 700;
-    margin-left: 3px;
-}
-
-.hero_greentext {
-    font-weight: 350;
 }

@@ -88,74 +88,44 @@
             </ol>
             <div class="carousel-inner" role="listbox">
                 <!-- Slide One - Set the background image for this slide in the line below -->
-                <div class="carousel-item active" style="background-image: url('img/residential/residential_hero.jpg');">
+                <div class="carousel-item active" style="background-image: url('img/quote_hero.jpg');">
                     <div class="carousel-caption">
-                        <h3 class="text-success hero_greentext">RESIDENTIAL CLEANING</h3>
-                        <p>A sparkling-clean home!</p>
-                        <div class="carousel-action">
-                            <a class="btn btn-primary" href="#res">Learn more</a>
-                            <a class="btn btn-success" href="http://lanacleaning.com/quote">Quote</a>
-                        </div>
+                        <h3 class="text-success">QUOTE</h3>
+                        <p class="quote_text_white">Saving your time and money</p>
                     </div>
                 </div>
                 <!-- Slide Two - Set the background image for this slide in the line below -->
                 <!-- Slide Three - Set the background image for this slide in the line below -->
             </div>
         </div>
-        <section class="residential_services" id="res">
-            <div class="container services_greyborder">
-                <h1 class="text-center h1_greyfont">SERVICES WE OFFER</h1>
-                <input id="tab1" type="radio" name="tabs" checked="checked" />
-                <label for="tab1">Home Cleaning</label>
-                <input id="tab2" type="radio" name="tabs" />
-                <label for="tab2">Deep Clean</label>
-                <input id="tab3" type="radio" name="tabs" />
-                <label for="tab3">Eco-clean</label>
-                <input id="tab4" type="radio" name="tabs" />
-                <label for="tab4">Move-in/ Move-out</label>
-                <input id="tab5" type="radio" name="tabs" />
-                <label for="tab5">Renovation</label>
-                <input id="tab6" type="radio" name="tabs" />
-                <label for="tab6">Vacation Clean</label>
-                <section class="tab" id="content1">
-                    <div class="row justify-content-center align-content-center commercial_section_padding">
-                        <img src="img/residential/home.jpg" class="rounded-circle offset-md-6" width="300" height="300">
-                        <p>Are you always running out of time? Do you feel like you don't spend enough time with friends and family? Lana Cleaning will give you back those precious life moments that you spend on cleaning!</p>
+        <section>
+            <div class="container">
+                <form role="form" action="https://formspree.io/slavrine@gmail.com">
+                    <div class="form-group">
+                        <label>Name</label>
+                        <input class="form-control" name="_name" type="text" placeholder="Lana Clean" />
+                        <label for="exampleInputEmail1">Phone</label>
+                        <input class="form-control" name="_phone" type="tel" placeholder="587 000 0000" />
+                        <label for="exampleInputEmail1">Email</label>
+                        <input class="form-control" name="_email" type="email" placeholder="587 000 0000" />
+                        <label for="exampleInputEmail1">Pick your date</label>
+                        <input class="form-control" name="_date" type="date" placeholder="587 000 0000" />
+                        <label for="exampleInputEmail1" name="_details">Please provide your details |
+                            <a href="#services">Not Sure what you need?</a>
+                        </label>
+                        <input type="hidden" name="_next" value="http://lanacleaning.com/" />
+                        <input type="text" name="_gotcha" style="display:none" />
+                        <textarea class="form-control textarea" rows="4" cols="50">
+Residential or Commercial clean? Would you like us to do a deep clean or eco clean? If not sure, scroll a bit lower to explore our Residential and Commercial services and see their details
+                        </textarea>
                     </div>
-                </section>
-                <section class="tab" id="content2">
-                    <div class="row justify-content-center align-content-center commercial_section_padding">
-                        <img src="img/residential/deep_clean.jpg" class="rounded-circle offset-md-6" width="300" height="300">
-                        <p>Planning a party/ big event? Or just ready to step up to a whole new level of cleanliness? We'll throw in all the standard features of house cleaning, and a lot more (oven, fridge, etc)!</p>
-                    </div>
-                </section>
-                <section class="tab" id="content3">
-                    <div class="row justify-content-center align-content-center commercial_section_padding">
-                        <img src="img/residential/eco_clean.jpg" class="rounded-circle offset-md-6" width="300" height="300">
-                        <p>Do you want to leave no environmental footprint? Do you have allergies/sensitivities to conventional cleaning materials?Welcome to Eco-clean. Completed solely w/h naturally derived, biodegrade products</p>
-                    </div>
-                </section>
-                <section class="tab" id="content4">
-                    <div class="row justify-content-center align-content-center commercial_section_padding">
-                        <img src="img/residential/movein.jpg" class="rounded-circle offset-md-6" width="300" height="300">
-                        <p>Ready to move in into a new place? Need to tidy up before selling? Lana Cleaning will be there to help and take all the stress away. Included are the benefits of Deep Clean and more!</p>
-                    </div>
-                </section>
-                <section class="tab" id="content5">
-                    <div class="row justify-content-center align-content-center commercial_section_padding">
-                        <img src="img/residential/renovation.jpg" class="rounded-circle offset-md-6" width="300" height="300">
-                        <p>Finishing up a DIY reno project? Finding dust and paint splattered everywhere? We can help turn your construction site into a showhome!</p>
-                    </div>
-                </section>
-                <section class="tab" id="content6">
-                    <div class="row justify-content-center align-content-center commercial_section_padding">
-                        <img src="img/residential/vacation.jpg" class="rounded-circle offset-md-6" width="300" height="300">
-                        <p>Planning a vacation and worried about dusty carpets? Need your plants watered? We will make sure your house greets you pristinely clean when you're back!</p>
-                    </div>
-                </section>
+                    <button type="submit" class="btn btn-primary">Submit</button>
+                </form>
             </div>
         </section>
-        <div class="container container_padding">
+        <!-- Page Content -->
+        <!-- Footer -->
+        <div class="container container_padding" id="services">
             <div class="content-section-heading text-center">
                 <h2 class="mb-5">OUR SERVICES</h2>
             </div>
@@ -173,18 +143,10 @@
                     </a>
                 </div>
                 <div class="col-lg-6">
-                    <a class="portfolio-item" href="#"><span class="caption"> <span class="caption-content"> <h2>Strawberries</h2> <p class="mb-0">Strawberries are such a tasty snack, especially with a little sugar on top!</p> </span> </span></a>
+                    <a class="portfolio-item" href="#"><span class="caption"> <span class="caption-content"> <h2>Strawberries</h2> <p class="mb-0">Strawberries are such a tasty snack, especially with a little sugar on top!</p> </span></span></a>
                 </div>
             </div>
         </div>
-        <!-- Page Content -->
-        <!-- Footer -->
-        <section class="quote">
-            <h1 class="text-center quote_text_white">WANT TO FIND OUT MORE?</h1>
-            <a href="http://lanacleaning.com/quote">
-                <button class="btn btn-light quote_btn text-center" type="button">GET A QUOTE</button>
-            </a>
-        </section>
         <section>
             <h1 class="text-center text_green h1_padding">WHERE WE SERVE YOU</h1>
         </section>
@@ -218,7 +180,7 @@
                                         <i class="fa index_envelope_icon fa-phone"></i>
                                         <a href="tel:+15875823075" class="footer_contact_a">587 582 3075</a>
                                     </li>
-                                    <li> 
+                                    <li>
                                         <h4>Share</h4>
                                         <div class="d-flex align-items-center justify-content-around">
                                             <div class="fb_btn">
@@ -230,7 +192,7 @@
                                                 <a class="twitter-share-button" href="https://twitter.com/intent/tweet?text=European%20clean%20with%20LanaClean%20http://lanacleaning.com/">Tweet</a>
                                             </div>
                                             <div class="g-plus gplus_btn" data-action="share" data-height="21" data-href="http://lanacleaning.com/defaultsite"></div>
-                                        </div>                                         
+                                        </div>
                                     </li>
                                 </ul>
                             </div>

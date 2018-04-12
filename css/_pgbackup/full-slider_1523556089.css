@@ -514,11 +514,7 @@ input:checked + label {
 }
 
 .footer_contact_a {
-    color: #cfcfcf;
+    color: #ffae1a;
     font-weight: 700;
     margin-left: 3px;
-}
-
-.hero_greentext {
-    font-weight: 350;
 }
