@@ -397,20 +397,40 @@ label:before {
     margin-right: 10px;
 }
 
-label[for*='1']:before {
-    content: '\f015';
-}
-
 label[for*='2']:before {
-    content: '\f17d';
+    content: '\f00e';
 }
 
 label[for*='3']:before {
-    content: '\f16b';
+    content: '\f18c';
 }
 
 label[for*='4']:before {
-    content: '\f1a9';
+    content: '\f187';
+}
+
+label[for*='5']:before {
+    content: '\f1fc';
+}
+
+label[for*='6']:before {
+    content: '\f072';
+}
+
+label[for*='7']:before {
+    content: '\f000';
+}
+
+label[for*='8']:before {
+    content: '\f0ad';
+}
+
+label[for*='9']:before {
+    content: '\f0f7';
+}
+
+label[for*='10']:before {
+    content: '\f1da';
 }
 
 label:hover {
@@ -428,17 +448,23 @@ input:checked + label {
 #tab1:checked ~ #content1,
 #tab2:checked ~ #content2,
 #tab3:checked ~ #content3,
-#tab4:checked ~ #content4 {
+#tab4:checked ~ #content4,
+#tab5:checked ~ #content5,
+#tab6:checked ~ #content6,
+#tab7:checked ~ #content7,
+#tab8:checked ~ #content8,
+#tab9:checked ~ #content9,
+#tab10:checked ~ #content10 {
     display: block;
 }
 
 @media screen and (max-width: 650px) {
     label {
-        font-size: 0;
+        font-size: 10px;
     }
 
     label:before {
-        margin: 0;
+        margin: 3px;
         font-size: 18px;
     }
 }
@@ -456,7 +482,7 @@ input:checked + label {
 }
 
 .residential_services {
-    padding: 10em 2em;
+    padding: 10em 0;
 }
 
 .services_we_offer {
@@ -466,4 +492,34 @@ input:checked + label {
     flex-flow: column wrap;
     justify-content: center;
     align-items: center;
+}
+
+.commercial_section_padding {
+    padding: 2vw 12vw;
+}
+
+.textarea {
+    height: 200px;
+}
+
+.h1_greyfont {
+    color: #bbb;
+    margin: 0.5em;
+}
+
+.services_greyborder {
+    border-color: #cfcfcf;
+    border-style: solid;
+    padding: 0.3em;
+}
+
+.footer_contact_a {
+    color: #cfcfcf;
+    font-weight: 700;
+    margin-left: 3px;
+}
+
+.hero_greentext {
+    font-weight: 350;
+    color: #18d347 !important;
 }
