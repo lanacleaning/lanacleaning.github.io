@@ -298,7 +298,7 @@
 }
 
 .container_padding {
-    padding: 5em 0;
+    padding: 5vw 03vw;
 }
 
 .quote {
@@ -516,4 +516,8 @@ input:checked + label {
 .hero_greentext {
     font-weight: 350;
     color: #18d347 !important;
+}
+
+.h3_paddingtop {
+    padding-top: 2em;
 }
